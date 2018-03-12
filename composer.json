@@ -1,0 +1,13 @@
+{
+    "name": "eab/laravel-middleware-ssl",
+    "description": "Laravel middleware for SSL",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Daniel Svensson",
+            "email": "daniel@eskeliden.se"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
