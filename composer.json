@@ -1,13 +1,14 @@
 {
-    "name": "eab/laravel-middleware-ssl",
+    "name": "eab-dsvenss/laravel-middleware-ssl",
     "description": "Laravel middleware for SSL",
     "type": "library",
     "authors": [
         {
-            "name": "Daniel Svensson",
-            "email": "daniel@eskeliden.se"
+            "name": "Daniel Svensson"
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "eab-dsvenss/php-laravel-util": "dev-master"
+    }
 }
