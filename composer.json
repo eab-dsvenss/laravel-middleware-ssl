@@ -1,5 +1,5 @@
 {
-    "name": "eab-dsvenss/laravel-middleware-ssl",
+    "name": "eab-dsvenss/php-laravel-middleware-ssl",
     "description": "Laravel middleware for SSL",
     "type": "library",
     "authors": [
