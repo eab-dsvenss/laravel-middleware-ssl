@@ -1,6 +1,6 @@
 <?php
 
-namespace se\wb\site\Http\Middleware;
+namespace se\eab\php\laravel\middleware\ssl;
 
 use Closure;
 use \Illuminate\Http\Request;

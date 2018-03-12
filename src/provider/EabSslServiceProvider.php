@@ -1,6 +1,6 @@
 <?php
 
-namespace se\eab\Providers;
+namespace se\eab\php\laravel\middleware\ssl\provider;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -16,7 +16,7 @@ class EabSSLServiceProvider extends ServiceProvider
         //
         
         $this->publishes([
-            __DIR__.'SSLMiddleware.php' => app_path("Http/Middleware/EabMiddlewareSSL.php")
+            __DIR__.'SslMiddleware.php' => app_path("Http/Middleware/EabSslMiddleware.php")
         ]);
     }
 
