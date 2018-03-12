@@ -14,11 +14,7 @@ class EabSslServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
-
-        $this->publishes([
-            __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'EabSslMiddleware.php' => app_path("Http/Middleware/EabSslMiddleware.php")
-        ]);
+        
     }
 
     /**
