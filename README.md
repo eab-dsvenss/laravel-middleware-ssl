@@ -13,7 +13,3 @@ Laravel middleware for handling SSL
     se\eab\php\laravel\middleware\ssl\provider\EabSslServiceProvider::class,
 ];
 ```
-2. Publish the resources for the package
-```bash
-php artisan vendor:publish
-```
