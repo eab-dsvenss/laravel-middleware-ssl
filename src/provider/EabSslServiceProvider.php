@@ -6,6 +6,7 @@ use Illuminate\Support\ServiceProvider;
 
 class EabSslServiceProvider extends ServiceProvider
 {
+
     /**
      * Bootstrap services.
      *
@@ -14,9 +15,9 @@ class EabSslServiceProvider extends ServiceProvider
     public function boot()
     {
         //
-        
+
         $this->publishes([
-            __DIR__.'SslMiddleware.php' => app_path("Http/Middleware/EabSslMiddleware.php")
+            __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'SslMiddleware.php' => app_path("Http/Middleware/EabSslMiddleware.php")
         ]);
     }
 
@@ -29,4 +30,5 @@ class EabSslServiceProvider extends ServiceProvider
     {
         //
     }
+
 }

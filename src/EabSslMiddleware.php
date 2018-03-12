@@ -7,7 +7,7 @@ use \Illuminate\Http\Request;
 use se\eab\php\laravel\util\url\UrlHelper;
 use se\eab\php\laravel\util\url\RedirectContainer;
 
-class SslMiddleware {
+class EabSslMiddleware {
 
     /**
      * Handle an incoming request.
