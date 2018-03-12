@@ -17,7 +17,7 @@ class EabSslServiceProvider extends ServiceProvider
         //
 
         $this->publishes([
-            __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'SslMiddleware.php' => app_path("Http/Middleware/EabSslMiddleware.php")
+            __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'EabSslMiddleware.php' => app_path("Http/Middleware/EabSslMiddleware.php")
         ]);
     }
 
