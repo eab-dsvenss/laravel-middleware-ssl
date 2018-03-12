@@ -10,7 +10,7 @@ Laravel middleware for handling SSL
 ```bash
 'providers' => [
     // ...
-    se\eab\php\laravel\middleware\EabSslServiceProvider::class,
+    se\eab\php\laravel\middleware\ssl\provider\EabSslServiceProvider::class,
 ];
 ```
 2. Publish the resources for the package
