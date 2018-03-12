@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "\\se\\eab\\php\\laravel\\middleware\\ssl\\": "src/"
+            "se\\eab\\php\\laravel\\middleware\\ssl\\": "src/"
         }
     }
 }

@@ -4,7 +4,7 @@ namespace se\eab\php\laravel\middleware\ssl\provider;
 
 use Illuminate\Support\ServiceProvider;
 
-class EabSsLServiceProvider extends ServiceProvider
+class EabSslServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap services.
